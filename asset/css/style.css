@@ -4,6 +4,9 @@
     box-sizing: border-box;
     
 }
+.container-fluid{
+    background-color: #151515;
+}
 .header{
     background-color: #151515;
     color: white; 
@@ -11,7 +14,6 @@
     font-size: 45px;
     height: 100px;
     padding-top: 20px;
-    border: black 1px solid;
     margin: 0;
     
 }
@@ -20,13 +22,17 @@
     text-align: center;
     height: 50px;
     padding-top: 5px;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    margin-bottom: 10px;
 }
 .navBar a{
     color: white;
     text-decoration: none;
     font-size: 20px;
-    margin: 20px;
+    padding: 15px;
 }
+    
 .navBar a:hover{
     color: rgba(250, 235, 215, 0.219);
 }
@@ -66,11 +72,13 @@
 }
 .pieDePagina{
     padding: 30px;
-    background-color: #9D9D9C;
+    background-color: #3d3d37;
     height: 10px;
-    margin-top: 10px;
     color: #FFFFFF;
 }
+
+/*Actividades*/
+
 .containerAct{
     background-color: #151515;
 }
@@ -78,11 +86,14 @@
     width: 450px;
     border-radius: 5px;
     box-shadow: 0 0 8px black;
+    margin-top: 35px;
+    margin-bottom: 35px;
+
 
 }
 .cajaAct{
     text-align: center;
-    margin: 10px;
+    margin: 50px;
     color: #FFFFFF;
     background-color: #F39237;
     width: 33%; 
@@ -90,9 +101,38 @@
     box-shadow: 0 0 8px #faad66;
 } 
 .cajaAct div{
-    margin-top: 10px;
+    margin-top: 30px;
     box-shadow: 0 0 8px #faad66;
 }
+
+/*Nosotros*/
+
+.cajaProf{
+    margin-top: 40px;
+    color: white;
+}
+.cajaProf div{
+    border: #151515 2px solid;
+    padding: 0;
+    margin: 0;
+}
+.cajaProf div div{
+    margin-top: 20px;
+
+}
+.cajaProf img{
+    width: 450px;
+    margin-left: 45px;
+    box-shadow: 0 0 8px #fafafa;
+    margin-top: 30px;
+}
+.tituNosotros{
+    color: #FFFFFF;
+}
+.tituNosotros p{
+    margin-top: 20px;
+}
+
 
 
 
