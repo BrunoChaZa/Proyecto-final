@@ -74,7 +74,7 @@
     padding: 30px;
     color: #FFFFFF;
     background-color: #494848;
-    margin-top: 450px;
+    margin-top: 200px;
 }
 .pieDePagina a{
     text-decoration: none;
@@ -117,9 +117,9 @@
     color: white;
 }
 .cajaProf div{
-    border: #151515 2px solid;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 .cajaProf div div{
     margin-top: 20px;
@@ -127,7 +127,6 @@
 }
 .cajaProf img{
     width: 450px;
-    margin-left: 45px;
     box-shadow: 0 0 8px #fafafa;
     margin-top: 30px;
 }
