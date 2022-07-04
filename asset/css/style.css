@@ -62,7 +62,7 @@
 .cajaValo img{
     width: 90px;
     margin-top: 10px;
-    margin-left: 75px;
+    margin-left: 65px;
 }
 .cajaValo h5{ 
     font-size: 30px;
@@ -74,6 +74,7 @@
     padding: 30px;
     color: #FFFFFF;
     background-color: #494848;
+    margin-top: 450px;
 }
 .pieDePagina a{
     text-decoration: none;
@@ -88,7 +89,6 @@
     background-color: #151515;
 }
 .containerAct img{
-    width: 450px;
     border-radius: 5px;
     box-shadow: 0 0 8px black;
     margin-top: 35px;
@@ -101,7 +101,7 @@
     margin: 50px;
     color: #FFFFFF;
     background-color: #F39237;
-    width: 33%; 
+    width: 35%; 
     padding: 20px;
     box-shadow: 0 0 8px #faad66;
 } 
@@ -159,7 +159,11 @@
     box-shadow: 0 0 5px #f1a877;
 }
 
+/*Contacto*/
 
+.cajaForm{
+    color: white;
+}
 
 
 
