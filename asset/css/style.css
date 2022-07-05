@@ -74,10 +74,10 @@
     padding: 30px;
     color: #FFFFFF;
     background-color: #494848;
-    margin-top: 200px;
+    margin-top: 80px;
 }
 @media(max-width:547px){
-    .pieDePagina{
+    .footer{
         padding: 30px;
         color: #FFFFFF;
         background-color: #494848;
