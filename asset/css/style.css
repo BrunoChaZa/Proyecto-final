@@ -47,18 +47,18 @@
 }
 .cajaValo{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 300px;
     background-color: #151515;
 }
-.valores{
+.cajaValo div{
     border: black 2px solid;
     width: 250px;
     background-color:#F39237;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     box-shadow: 0 0 8px #fd7c03;
-    
 }
+
 .cajaValo img{
     width: 90px;
     margin-top: 10px;
@@ -76,11 +76,13 @@
     background-color: #494848;
     margin-top: 200px;
 }
-.pieDePagina a{
-    text-decoration: none;
-    color: white;
-    margin-left: 5px;
-    
+@media(max-width:547px){
+    .pieDePagina{
+        padding: 30px;
+        color: #FFFFFF;
+        background-color: #494848;
+        margin-top: 400px;
+    }
 }
 
 /*Actividades*/
