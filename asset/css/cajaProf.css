@@ -1,0 +1,17 @@
+.cajaProf {
+  margin-top: 40px;
+  color: white;
+}
+.cajaProf div {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.cajaProf div div {
+  margin-top: 20px;
+}
+.cajaProf img {
+  width: 450px;
+  box-shadow: 0 0 8px #fafafa;
+  margin-top: 30px;
+}

@@ -1,0 +1,19 @@
+.navBar {
+  background-color: #151515;
+  text-align: end;
+  height: 50px;
+  padding-top: 5px;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+  margin-bottom: 10px;
+}
+.navBar a {
+  color: rgb(255, 253, 253);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.navBar a:hover {
+  color: rgba(250, 235, 215, 0.219);
+}

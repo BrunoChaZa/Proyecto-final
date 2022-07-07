@@ -1,0 +1,30 @@
+@media(max-width:548px){
+    .footer{
+        padding: 30px;
+        color: #FFFFFF;
+        background-color: #494848;
+        margin-top: 400px;
+    } 
+    .navBar{
+        display: none;
+    }
+    .navBar2{
+        display: contents;
+        button{
+            padding: 0;
+            margin-bottom: 10px;
+        }
+        a{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            font-size: 15px;
+
+        }
+    }
+
+
+}

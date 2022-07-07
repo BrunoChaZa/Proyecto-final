@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container-fluid{
+    background-color: #151515;
+}
+.header{
+    background-color: #151515;
+    color: white; 
+    text-align: center;
+    font-size: 45px;
+    height: 100px;
+    padding-top: 20px;
+    margin: 0;
+    
+}
+.navBar2{
+    display: none
+}
+
+
+@import "navBar";
+
+.tituVal h3{
+    font-size: 35px;
+    padding-top: 10px;
+    background-color: #151515;
+    color:#FFFFFF;
+    text-align: center;
+    height: 80px;
+    margin: 0;
+}
+@import "cajaValo";
+.pieDePagina{
+    padding: 30px;
+    color: #FFFFFF;
+    background-color: #494848;
+    margin-top: 80px;
+}
+@import "media";
+
+/*Actividades*/
+.containerAct{
+    background-color: #151515;
+    img{
+        border-radius: 5px;
+        box-shadow: 0 0 8px black;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+}
+@import "cajaAct";
+
+/*Nosotros*/
+@import "cajaProf";
+.tituNosotros{
+    color: #FFFFFF;
+    p{
+        margin-top: 20px;
+    }
+}
+
+/*Ubicacion*/
+.cajaUbi{
+    h2{
+        color: #FFFFFF;
+        margin: 20px;
+        margin-bottom: 50px;
+    }
+    div {
+        margin-bottom: 70px;
+    }
+
+}
+.cajaInfo{
+    color: #FFFFFF  ;
+    div{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        background-color: #F39237;
+        border: black 2px solid;
+        box-shadow: 0 0 5px #f1a877;
+    }
+}
+/*Contacto*/
+.cajaForm{
+    color: white;
+}

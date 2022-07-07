@@ -1,167 +1,191 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-.container-fluid{
-    background-color: #151515;
-}
-.header{
-    background-color: #151515;
-    color: white; 
-    text-align: center;
-    font-size: 45px;
-    height: 100px;
-    padding-top: 20px;
-    margin: 0;
-    
-}
-.navBar{
-    background-color: #151515;
-    text-align: center;
-    height: 50px;
-    padding-top: 5px;
-    border-top: 1px black solid;
-    border-bottom: 1px black solid;
-    margin-bottom: 10px;
-}
-.navBar a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 15px;
-}
-    
-.navBar a:hover{
-    color: rgba(250, 235, 215, 0.219);
-}
-.tituVal h3{
-    font-size: 35px;
-    padding-top: 10px;
-    background-color: #151515;
-    color:#FFFFFF;
-    text-align: center;
-    height: 80px;
-    margin: 0;
-}
-.cajaValo{
-    display: flex;
-    justify-content: space-between;
-    height: 300px;
-    background-color: #151515;
-}
-.cajaValo div{
-    border: black 2px solid;
-    width: 250px;
-    background-color:#F39237;
-    margin-bottom: 30px;
-    box-shadow: 0 0 8px #fd7c03;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.cajaValo img{
-    width: 90px;
-    margin-top: 10px;
-    margin-left: 65px;
+.container-fluid {
+  background-color: #151515;
 }
-.cajaValo h5{ 
-    font-size: 30px;
-    margin-top: 20px;
-    text-align: center;
-    color: #151515;
+
+.header {
+  background-color: #151515;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  height: 100px;
+  padding-top: 20px;
+  margin: 0;
 }
-.pieDePagina{
+
+.navBar2 {
+  display: none;
+}
+
+.navBar {
+  background-color: #151515;
+  text-align: center;
+  height: 50px;
+  padding-top: 5px;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+  margin-bottom: 10px;
+}
+.navBar a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.navBar a:hover {
+  color: rgba(250, 235, 215, 0.219);
+}
+
+.tituVal h3 {
+  font-size: 35px;
+  padding-top: 10px;
+  background-color: #151515;
+  color: #FFFFFF;
+  text-align: center;
+  height: 80px;
+  margin: 0;
+}
+
+.cajaValo {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  background-color: #151515;
+}
+.cajaValo div {
+  border: black 2px solid;
+  width: 250px;
+  background-color: #F39237;
+  margin-bottom: 30px;
+  box-shadow: 0 0 8px #fd7c03;
+}
+.cajaValo img {
+  width: 90px;
+  margin-top: 10px;
+  margin-left: 65px;
+}
+.cajaValo h5 {
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+  color: #151515;
+}
+
+.pieDePagina {
+  padding: 30px;
+  color: #FFFFFF;
+  background-color: #494848;
+  margin-top: 80px;
+}
+
+@media (max-width: 548px) {
+  .footer {
     padding: 30px;
     color: #FFFFFF;
     background-color: #494848;
-    margin-top: 80px;
-}
-@media(max-width:547px){
-    .footer{
-        padding: 30px;
-        color: #FFFFFF;
-        background-color: #494848;
-        margin-top: 400px;
-    }
-}
+    margin-top: 400px;
+  }
 
+  .navBar {
+    display: none;
+  }
+
+  .navBar2 {
+    display: contents;
+  }
+  .navBar2 button {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .navBar2 a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+  }
+}
 /*Actividades*/
-
-.containerAct{
-    background-color: #151515;
+.containerAct {
+  background-color: #151515;
 }
-.containerAct img{
-    border-radius: 5px;
-    box-shadow: 0 0 8px black;
-    margin-top: 35px;
-    margin-bottom: 35px;
-
-
+.containerAct img {
+  border-radius: 5px;
+  box-shadow: 0 0 8px black;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
-.cajaAct{
-    text-align: center;
-    margin: 50px;
-    color: #FFFFFF;
-    background-color: #F39237;
-    width: 35%; 
-    padding: 20px;
-    box-shadow: 0 0 8px #faad66;
-} 
-.cajaAct div{
-    margin-top: 30px;
-    box-shadow: 0 0 8px #faad66;
+
+.cajaAct {
+  text-align: center;
+  margin: 50px;
+  color: #FFFFFF;
+  background-color: #F39237;
+  width: 35%;
+  padding: 20px;
+  box-shadow: 0 0 8px #faad66;
+}
+.cajaAct div {
+  margin-top: 30px;
+  box-shadow: 0 0 8px #faad66;
 }
 
 /*Nosotros*/
+.cajaProf {
+  margin-top: 40px;
+  color: white;
+}
+.cajaProf div {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.cajaProf div div {
+  margin-top: 20px;
+}
+.cajaProf img {
+  width: 450px;
+  box-shadow: 0 0 8px #fafafa;
+  margin-top: 30px;
+}
 
-.cajaProf{
-    margin-top: 40px;
-    color: white;
+.tituNosotros {
+  color: #FFFFFF;
 }
-.cajaProf div{
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-.cajaProf div div{
-    margin-top: 20px;
-
-}
-.cajaProf img{
-    width: 450px;
-    box-shadow: 0 0 8px #fafafa;
-    margin-top: 30px;
-}
-.tituNosotros{
-    color: #FFFFFF;
-}
-.tituNosotros p{
-    margin-top: 20px;
+.tituNosotros p {
+  margin-top: 20px;
 }
 
 /*Ubicacion*/
-
-.cajaUbi h2{
-    color: #FFFFFF;
-    margin: 20px;
-    margin-bottom: 50px;
+.cajaUbi h2 {
+  color: #FFFFFF;
+  margin: 20px;
+  margin-bottom: 50px;
 }
 .cajaUbi div {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
-.cajaInfo{
-    color: #FFFFFF  ;
+
+.cajaInfo {
+  color: #FFFFFF;
 }
-.cajaInfo div{
-    margin-top: 30px;
-    margin-bottom: 50px;
-    background-color: #F39237;
-    border: black 2px solid;
-    box-shadow: 0 0 5px #f1a877;
+.cajaInfo div {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background-color: #F39237;
+  border: black 2px solid;
+  box-shadow: 0 0 5px #f1a877;
 }
 
 /*Contacto*/
-
-.cajaForm{
-    color: white;
+.cajaForm {
+  color: white;
 }
