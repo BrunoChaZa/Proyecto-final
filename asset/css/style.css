@@ -25,17 +25,17 @@
 .navBar {
   background-color: #151515;
   text-align: center;
-  height: 50px;
+  height: 65px;
   padding-top: 5px;
   border-top: 1px black solid;
   border-bottom: 1px black solid;
   margin-bottom: 10px;
 }
 .navBar a {
-  color: white;
+  color: rgb(255, 253, 253);
   text-decoration: none;
   font-size: 20px;
-  padding: 15px;
+  padding: 13px;
 }
 
 .navBar a:hover {
@@ -84,7 +84,7 @@
   margin-top: 80px;
 }
 
-@media (max-width: 548px) {
+@media (max-width: 550px) {
   .footer {
     padding: 30px;
     color: #FFFFFF;
@@ -112,7 +112,13 @@
     padding: 10px;
     font-size: 15px;
   }
+  .cajaProf div div {
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+
 }
+
 /*Actividades*/
 .containerAct {
   background-color: #151515;
@@ -150,6 +156,7 @@
 }
 .cajaProf div div {
   margin-top: 20px;
+
 }
 .cajaProf img {
   width: 450px;
@@ -188,4 +195,8 @@
 /*Contacto*/
 .cajaForm {
   color: white;
+}
+.act{
+  border-top: #fffbfb 1px solid;
+  margin-top: 15px;
 }
