@@ -87,5 +87,23 @@
 }
 /*Contacto*/
 .cajaForm{
-    color: white;
+    color: rgb(235, 230, 230);
+}
+
+$botones: (
+    padding: 5px,
+    bordes: 0,
+    radio: 5px,
+    color: rgb(255, 255, 255),
+    fondo: #050505,
+    margen: 10px,
+);
+.botones{
+    padding: map-get($botones, padding );
+    color: map-get($botones, color );
+    margin: map-get($botones, bordes );
+    border-radius: map-get($botones, radio );
+    background-color: map-get($botones, fondo );
+    margin-top: map-get($botones, margen );
+
 }

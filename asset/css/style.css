@@ -25,7 +25,7 @@
 .navBar {
   background-color: #151515;
   text-align: center;
-  height: 65px;
+  height: 50px;
   padding-top: 5px;
   border-top: 1px black solid;
   border-bottom: 1px black solid;
@@ -35,7 +35,7 @@
   color: rgb(255, 253, 253);
   text-decoration: none;
   font-size: 20px;
-  padding: 13px;
+  padding: 15px;
 }
 
 .navBar a:hover {
@@ -84,7 +84,7 @@
   margin-top: 80px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 548px) {
   .footer {
     padding: 30px;
     color: #FFFFFF;
@@ -112,13 +112,7 @@
     padding: 10px;
     font-size: 15px;
   }
-  .cajaProf div div {
-    margin-top: 20px;
-    margin-bottom: 100px;
-  }
-
 }
-
 /*Actividades*/
 .containerAct {
   background-color: #151515;
@@ -156,7 +150,6 @@
 }
 .cajaProf div div {
   margin-top: 20px;
-
 }
 .cajaProf img {
   width: 450px;
@@ -194,9 +187,14 @@
 
 /*Contacto*/
 .cajaForm {
-  color: white;
+  color: rgb(235, 230, 230);
 }
-.act{
-  border-top: #fffbfb 1px solid;
-  margin-top: 15px;
+
+.botones {
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  border-radius: 5px;
+  background-color: #050505;
+  margin-top: 10px;
 }
