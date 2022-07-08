@@ -1,0 +1,34 @@
+@mixin propiedades($ancho, $alto, $colordefondo) {
+    width: $ancho;
+    height: $alto;
+    background-color: $colordefondo;
+
+    
+}
+$colores: (
+    primario: white,
+    secundario: red
+);
+
+
+$botones: (
+    padding: 5px,
+    bordes: 0,
+    radio: 5px,
+    color: rgb(255, 255, 255),
+    margen: 10px,
+);
+.botones{
+    padding: map-get($botones, padding );
+    color: map-get($botones, color );
+    margin: map-get($botones, bordes );
+    border-radius: map-get($botones, radio );
+    margin-top: map-get($botones, margen );
+    @include propiedades(80px, 34px, rgb(31, 27, 27) )
+}
+@each $key, $var in $colores {
+    .botones-#{$key} {
+        @extend .botones;
+        color: $var;
+    };
+};
