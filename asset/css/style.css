@@ -194,7 +194,7 @@
   color: rgb(235, 230, 230);
 }
 
-.botones {
+.botones, .botones-secundario, .botones-primario {
   padding: 5px;
   color: rgb(255, 255, 255);
   margin: 0;
@@ -203,4 +203,12 @@
   width: 80px;
   height: 34px;
   background-color: rgb(31, 27, 27);
+}
+
+.botones-primario {
+  color: white;
+}
+
+.botones-secundario {
+  color: red;
 }

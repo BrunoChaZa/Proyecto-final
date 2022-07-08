@@ -96,6 +96,11 @@
 
     
 }
+$colores: (
+    primario: white,
+    secundario: red
+);
+
 
 $botones: (
     padding: 5px,
@@ -111,5 +116,10 @@ $botones: (
     border-radius: map-get($botones, radio );
     margin-top: map-get($botones, margen );
     @include propiedades(80px, 34px, rgb(31, 27, 27) )
-
 }
+@each $key, $var in $colores {
+    .botones-#{$key} {
+        @extend .botones;
+        color: $var;
+    };
+};
