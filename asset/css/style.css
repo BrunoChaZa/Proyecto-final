@@ -112,6 +112,10 @@
     padding: 10px;
     font-size: 15px;
   }
+
+  .cajaValo {
+    margin-left: 2px;
+  }
 }
 /*Actividades*/
 .containerAct {
