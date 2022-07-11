@@ -91,11 +91,9 @@
     background-color: #494848;
     margin-top: 400px;
   }
-
   .navBar {
     display: none;
   }
-
   .navBar2 {
     display: contents;
   }
@@ -112,7 +110,6 @@
     padding: 10px;
     font-size: 15px;
   }
-
   .cajaValo {
     margin-left: 2px;
   }
@@ -126,6 +123,9 @@
   box-shadow: 0 0 8px black;
   margin-top: 35px;
   margin-bottom: 35px;
+}
+.containerAct h3 {
+  font-size: 24px;
 }
 
 .cajaAct {
