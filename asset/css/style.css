@@ -113,6 +113,9 @@
   .cajaValo {
     margin-left: 2px;
   }
+  .cajaProf div div {
+    margin-bottom: 80px;
+  }
 }
 /*Actividades*/
 .containerAct {
