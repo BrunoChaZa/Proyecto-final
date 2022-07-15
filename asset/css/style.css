@@ -11,10 +11,6 @@
 .header {
   background-color: #151515;
   color: white;
-  text-align: center;
-  font-size: 45px;
-  height: 100px;
-  padding-top: 20px;
   margin: 0;
 }
 
@@ -24,18 +20,31 @@
 
 .navBar {
   background-color: #151515;
-  text-align: center;
-  height: 50px;
+  text-align: end;
+  height: 150px;
   padding-top: 5px;
   border-top: 1px black solid;
   border-bottom: 1px black solid;
   margin-bottom: 10px;
 }
+.navBar .cajaLogo {
+  display: flex;
+  justify-content: space-between;
+}
+.navBar .logo {
+  width: 200px;
+  height: 150px;
+}
 .navBar a {
   color: rgb(255, 253, 253);
   text-decoration: none;
-  font-size: 20px;
-  padding: 15px;
+  font-size: 18px;
+  padding: 5px;
+}
+.navBar ul {
+  margin-top: 50px;
+  margin-right: 75px;
+  text-align: end;
 }
 
 .navBar a:hover {
@@ -85,6 +94,15 @@
 }
 
 @media (max-width: 548px) {
+  .header {
+    background-color: #151515;
+    color: white;
+    text-align: end;
+    font-size: 45px;
+    height: 100px;
+    padding-top: 20px;
+    margin: 0;
+  }
   .footer {
     padding: 30px;
     color: #FFFFFF;
@@ -115,6 +133,38 @@
   }
   .cajaProf div div {
     margin-bottom: 80px;
+  }
+}
+@media (max-width: 680px) {
+  .cajaLogo {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    width: 200px;
+    height: 150px;
+  }
+  .navBar {
+    display: none;
+  }
+  .navBar2 {
+    display: contents;
+  }
+  .navBar2 button {
+    padding: 0;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 50px;
+    margin-top: 50px;
+  }
+  .navBar2 a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
   }
 }
 /*Actividades*/
@@ -166,6 +216,7 @@
 
 .tituNosotros {
   color: #FFFFFF;
+  border-bottom: 1px solid black;
 }
 .tituNosotros p {
   margin-top: 20px;

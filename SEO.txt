@@ -1,0 +1,11 @@
+﻿Trabajo de Seo
+
+
+-Agregue etiquetas meta description en cada página de mi proyecto, en cada una de las etiqueta especifique el contenido de cada pagina en especifico. Por ejemplo en la página de inicio describí mi proyecto(“Gimnasio de múltiples disciplinas ubicado en zona Norte en el partido de San Martín, contamos con un equipo de profesionales que ayudarán a todos los alumnos a dar lo mejor de sí”.) de manera que la persona que lo lea se informe y sepa de qué se trata ese proyecto.
+Utilice 178 caracteres para que la descripción se ve al completo cuando alguien busque mi sitio en Google
+
+
+-También utilice la etiqueta meta keyword en la cual utilice palabras claves (Gimnasio,zona norte,San Martin,Boxeo,artes marciales,kick-boxing,yoga,crossfit,gimnasio Buenos Aires,salud) con las cuales quiero que mi sitio esté relacionado y también para que mi página se posicione bien a la hora de que un usuario esté buscando un gimnasio en internet y asi tenes mas visitas a mi sitio
+
+
+-Cambie las etiquetas de títulos H de manera que queden ordenadas de manera jerárquica, dando prioridad a los h1 y h2 el contenido más importante y de mayor relevancia de la página.

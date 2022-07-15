@@ -10,13 +10,10 @@
 .header{
     background-color: #151515;
     color: white; 
-    text-align: center;
-    font-size: 45px;
-    height: 100px;
-    padding-top: 20px;
     margin: 0;
-    
+
 }
+
 .navBar2{
     display: none
 }
@@ -61,6 +58,7 @@
 @import "cajaProf";
 .tituNosotros{
     color: #FFFFFF;
+    border-bottom: 1px solid black ;
     p{
         margin-top: 20px;
     }
