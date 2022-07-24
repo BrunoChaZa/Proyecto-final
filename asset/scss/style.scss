@@ -11,6 +11,7 @@
     background-color: #151515;
     color: white; 
     margin: 0;
+    text-align: center;
 
 }
 
@@ -89,5 +90,11 @@
 /*Contacto*/
 .cajaForm{
     color: rgb(235, 230, 230);
+    display: flex;
+    justify-content: center;
+}
+.form{
+    width: 800px;
+
 }
 @import "variables"

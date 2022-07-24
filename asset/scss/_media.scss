@@ -8,12 +8,12 @@
         padding-top: 20px;
         margin: 0;
     }
-    .footer{
+  .footer{
         padding: 30px;
         color: #FFFFFF;
         background-color: #494848;
         margin-top: 400px;
-    } 
+    }   
     .navBar{
         display: none;
     }
@@ -77,4 +77,10 @@
 
         }
     }
+}
+@media(max-width:797px){
+    .footer{
+        margin-top: 400px;
+    } 
+
 }

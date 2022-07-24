@@ -12,6 +12,7 @@
   background-color: #151515;
   color: white;
   margin: 0;
+  text-align: center;
 }
 
 .navBar2 {
@@ -167,6 +168,11 @@
     font-size: 15px;
   }
 }
+@media (max-width: 797px) {
+  .footer {
+    margin-top: 400px;
+  }
+}
 /*Actividades*/
 .containerAct {
   background-color: #151515;
@@ -246,6 +252,12 @@
 /*Contacto*/
 .cajaForm {
   color: rgb(235, 230, 230);
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 800px;
 }
 
 .botones, .botones-secundario, .botones-primario {
