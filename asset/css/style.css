@@ -13,6 +13,7 @@
   color: white;
   margin: 0;
   text-align: center;
+  font-size: 40px;
 }
 
 .navBar2 {
@@ -137,6 +138,10 @@
   }
 }
 @media (max-width: 680px) {
+  .header {
+    font-size: 20px;
+    text-align: center;
+  }
   .cajaLogo {
     display: flex;
     justify-content: space-between;
