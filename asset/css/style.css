@@ -95,6 +95,40 @@
   margin-top: 80px;
 }
 
+.redes a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 22px;
+  color: white;
+}
+
+.redes a:hover {
+  color: #151515;
+}
+
+.informacion a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 22px;
+  color: white;
+}
+.informacion label {
+  padding-left: 10px;
+  font-size: 19px;
+}
+
+.informacion a:hover {
+  color: #151515;
+}
+
+.informacion a label:hover {
+  color: #151515;
+}
+
+.copyright {
+  margin-top: 40px;
+}
+
 @media (max-width: 548px) {
   .header {
     background-color: #151515;
@@ -176,6 +210,9 @@
 @media (max-width: 797px) {
   .footer {
     margin-top: 400px;
+  }
+  .redes {
+    margin-top: 50px;
   }
 }
 /*Actividades*/

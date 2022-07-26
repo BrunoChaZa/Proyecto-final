@@ -1,0 +1,38 @@
+.pieDePagina{
+    padding: 30px;
+    color: #FFFFFF;
+    background-color: #494848;
+    margin-top: 80px;
+}
+.redes{
+    a{
+        text-decoration: none;
+        padding: 10px;
+        font-size: 22px;
+        color: white;
+    }
+}
+.redes a:hover{
+    color: #151515;
+}
+.informacion{
+    a{
+        text-decoration: none;
+        padding: 10px;
+        font-size: 22px;
+        color: white;
+    }
+    label{
+        padding-left: 10px;
+        font-size: 19px
+    }
+    }
+    .informacion a:hover{
+        color: #151515;
+    }
+    .informacion a label:hover{
+        color: #151515
+    }
+    .copyright{
+        margin-top: 40px;
+    }
