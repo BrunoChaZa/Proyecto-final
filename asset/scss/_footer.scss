@@ -4,17 +4,31 @@
     background-color: #494848;
     margin-top: 80px;
 }
+.logoFooter{
+    padding: 0;
+    img{
+        width: 180px;
+        margin: 30px 15px;
+    }
+}
 .redes{
     a{
         text-decoration: none;
         padding: 10px;
         font-size: 22px;
         color: white;
+        display: flex;
+        justify-content: center;
+        label{
+            padding-left: 15px;
+            font-size: 19px;
+        }
     }
 }
 .redes a:hover{
     color: #151515;
 }
+
 .informacion{
     a{
         text-decoration: none;
@@ -33,6 +47,15 @@
     .informacion a label:hover{
         color: #151515
     }
+
     .copyright{
-        margin-top: 40px;
+       div{
+        display: flex;
+        justify-content: center;
+       }
+        p{
+            font-size: 15px;
+            width: 300px;
+            margin-top: 15px;
+        }
     }
